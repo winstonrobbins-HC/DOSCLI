@@ -1,0 +1,15 @@
+destinationEntity:
+  destinationName: 
+  destinationType: local
+schemaVersion: 0
+schemaType: Binding
+name: DiabetesRelation
+description: 
+contentId: d50776bd-e1e8-4da1-93cf-87e6a1d61474
+sourceDataStore: 
+type: SQL
+status: In Development
+loadType: Full
+script: !script DiabetesRelation.sql
+objectRelationships: []
+attributeValues: []

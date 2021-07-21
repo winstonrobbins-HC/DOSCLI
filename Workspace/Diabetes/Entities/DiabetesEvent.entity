@@ -1,0 +1,62 @@
+schemaVersion: 0
+schemaType: Entity
+name: DiabetesEvent
+tableName: 
+schemaName: 
+databaseName: 
+contentId: d15e92ff-57ca-408f-a14a-3a57c9c50ec0
+businessDescription: 
+technicalDescription: 
+dataStore: 
+persistenceType: table
+isGlobalRead: false
+isGlobalWrite: false
+fields:
+- name: BindingID
+  contentId: 1b66da72-2e63-4485-b9b9-a98aec9cf928
+  businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
+  technicalDescription: 
+  status: 
+  dataType: int
+  dataSensitivity: None
+  ordinal: 
+  isNullable: false
+  isAutoIncrement: false
+  defaultValue: 
+  excludeFromBaseView: false
+  isSystemField: true
+  objectRelationships: []
+  attributeValues: []
+- name: BindingNM
+  contentId: 62238a59-16b1-4870-b712-26bea5366ada
+  businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
+  technicalDescription: 
+  status: 
+  dataType: string
+  dataSensitivity: None
+  ordinal: 
+  isNullable: false
+  isAutoIncrement: false
+  defaultValue: 
+  excludeFromBaseView: false
+  isSystemField: true
+  objectRelationships: []
+  attributeValues: []
+- name: LastLoadDTS
+  contentId: ce9250fe-9dcd-4f4e-b58a-402629368da9
+  businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
+  technicalDescription: 
+  status: 
+  dataType: datetime
+  dataSensitivity: None
+  ordinal: 
+  isNullable: false
+  isAutoIncrement: false
+  defaultValue: 
+  excludeFromBaseView: false
+  isSystemField: true
+  objectRelationships: []
+  attributeValues: []
+indexes: []
+objectRelationships: []
+attributeValues: []
